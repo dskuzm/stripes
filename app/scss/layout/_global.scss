@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    @include media(">=tablet") {
+    max-width: 480px;
+    padding: 0 10px;
+    }
+    @include media(">=desktop") {
+    	max-width: 960px;
+    }
+}
+.row {
+	margin: 0 -10px;
+	@include media(">=desktop") {
+		display: flex;
+	}
+}
+.col {
+	padding: 0 10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.green {
+	color: $green;
+}
+
+.btn {
+	background-color: $green;
+	color: $white;
+	text-decoration: none;
+	line-height: 1.500em;
+	padding: 2px;
+}
+
+// hero
+.hero {
+	height: 408px;
+	color: white;
+	background: repeating-linear-gradient(0deg, #333333, #333333 77px, transparent 77px, transparent 155px);
+	.container {
+		display: flex;
+	}
+}
+.hero__article {
+
+}
+.article__title {
+	color: $green;
+	line-height: 1.167em;
+	span {
+		background-color: #fcfcfc;
+	}
+}

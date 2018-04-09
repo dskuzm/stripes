@@ -6,13 +6,14 @@ $gray: #999;
 $black: #333;
 $white: #fff;
 $light-blue: #39f;
+$green: #5a9e61;
 
-$base-font-sans-serif: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
-$base-font-serif: 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
+$base-font-sans-serif: 'Open Sans', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+$base-font-serif: 'Bree Serif', 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
 
 // Body
 $base-text-color: $black !default;
-$base-background-color: $white !default;
+$base-background-color: #f7f7f7;
 $font-size-base: 16px !default;
 $line-height-base: 1.2 !default;
 $base-font-family: $base-font-sans-serif !default;
@@ -22,7 +23,7 @@ $vertical-rhythm: ($line-height-base * 1em);
 $base-min-width: 320px;
 
 // Liks
-$base-link-color: $light-blue;
+$base-link-color: $green;
 
 // Buttons
 $btn-color: $white !default;
@@ -45,7 +46,7 @@ $h4-font-size: 21px !default;
 $h5-font-size: 17px !default;
 $h6-font-size: 15px !default;
 
-$headings-font-family: inherit !default;
+$headings-font-family: $base-font-serif;
 $headings-color: inherit !default;
 
 

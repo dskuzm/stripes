@@ -1,0 +1,26 @@
+.footer {
+	padding: 10px 0;
+
+	.container {
+		border-top: 1px solid #cccccc;
+		@include media(">=desktop") {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+
+	.copiryght {
+		display: none;
+		@include media(">=desktop") {
+			display: block;
+		}
+	}
+	.social__icons {
+		display: flex;
+		justify-content: center;
+		li {
+			margin: 0 10px;
+		}
+	}
+
+}
